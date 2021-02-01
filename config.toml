@@ -141,7 +141,7 @@ disqusShortname = "centaurialpha"
     name = "RSS"
     icon = "fa fa-rss"
     weight = 6
-    url = "https://myhugosite.com/index.xml"
+    url = "https://centaurialpha.github.io/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
 
@@ -161,6 +161,6 @@ weight = 3
 url = "projects/"
 
 [[menu.main]]
-name = "Contact me"
-weight = 5
-url = "contact/"
+name = "Resume"
+weight = 4
+url = "resume/"
