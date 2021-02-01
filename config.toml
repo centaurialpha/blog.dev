@@ -17,7 +17,7 @@ disqusShortname = "centaurialpha"
     author = "gabox"
     description = "gabox's personal website"
     keywords = "blog,developer,personal"
-    info = "Software Developer at Satllogic"
+    info = "Software Developer at Satellogic"
     # avatarURL = "images/avatar.jpg"
     #gravatar = "john.doe@example.com"
     # footerContent = "Enter a text here."
@@ -54,7 +54,7 @@ disqusShortname = "centaurialpha"
     customCSS = []
 
     # Custom SCSS
-    customSCSS = []
+    customSCSS = ["scss/logo.scss"]
 
     # Custom JS
     customJS = []
@@ -121,27 +121,22 @@ disqusShortname = "centaurialpha"
     name = "Github"
     icon = "fa fa-github"
     weight = 1
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/centaurialpha/"
 [[params.social]]
     name = "Gitlab"
     icon = "fa fa-gitlab"
     weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "https://gitlab.com/centaurialpha/"
 [[params.social]]
     name = "Twitter"
     icon = "fa fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/_alfacentauri/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
-[[params.social]]
-    name = "Medium"
-    icon = "fa fa-medium"
-    weight = 5
-    url = "https://medium.com/@johndoe"
+    url = "https://www.linkedin.com/in/dgabox/"
 [[params.social]]
     name = "RSS"
     icon = "fa fa-rss"
@@ -150,63 +145,22 @@ disqusShortname = "centaurialpha"
     rel = "alternate"
     type = "application/rss+xml"
 
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
 
-[languages]
-    [languages.en]
-        languageName = "English"
+[[menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
 
-        [languages.en.menu]
+[[menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
 
-            [[languages.en.menu.main]]
-            name = "About"
-            weight = 1
-            url = "about/"
-
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 3
-            url = "projects/"
-
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 5
-            url = "contact/"
-
-
-    [languages.pt-br]
-        languageName = "Português"
-        title = "João Ninguém"
-
-        [languages.pt-br.params]
-            author = "João Ninguém"
-            info = "Full Stack DevOps e Mágico"
-            description = "Sítio pessoal de João Ninguém"
-            keywords = "blog,desenvolvedor,pessoal"
-            footerContent = "Coloque algum texto aqui."
-
-        [languages.pt-br.menu]
-
-            [[languages.pt-br.menu.main]]
-            name = "Sobre"
-            weight = 1
-            url = "about/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Projetos"
-            weight = 3
-            url = "projects/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Contato"
-            weight = 5
-            url = "contact/"
+[[menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"
